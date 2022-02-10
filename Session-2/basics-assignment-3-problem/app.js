@@ -11,7 +11,7 @@ const app = Vue.createApp({
         const that = this;
         setTimeout(function () {
           that.result = 0;
-        }, 5);
+        }, 05);
       }
     },
   },
