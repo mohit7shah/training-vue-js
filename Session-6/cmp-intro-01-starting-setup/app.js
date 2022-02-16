@@ -3,23 +3,23 @@ const app = Vue.createApp({
     return {
       friends: [
         {
-          id: 'manuel',
-          name: 'Manuel Lorenz',
-          phone: '01234 5678 991',
-          email: 'manuel@localhost.com',
+          id: "manuel",
+          name: "Manuel Lorenz",
+          phone: "01234 5678 991",
+          email: "manuel@localhost.com",
         },
         {
-          id: 'julie',
-          name: 'Julie Jones',
-          phone: '09876 543 221',
-          email: 'julie@localhost.com',
+          id: "julie",
+          name: "Julie Jones",
+          phone: "09876 543 221",
+          email: "julie@localhost.com",
         },
       ],
     };
   },
 });
 
-app.component('friend-contact', {
+app.component("friend-contact", {
   template: `
   <li>
     <h2>{{ friend.name }}</h2>
@@ -36,10 +36,10 @@ app.component('friend-contact', {
     return {
       detailsAreVisible: false,
       friend: {
-        id: 'manuel',
-        name: 'Manuel Lorenzo',
-        phone: '01234 5678 991',
-        email: 'manuel@localhost.com',
+        id: "manuel",
+        name: "Manuel Lorenzo",
+        phone: "01234 5678 991",
+        email: "manuel@localhost.com",
       },
     };
   },
@@ -50,4 +50,4 @@ app.component('friend-contact', {
   },
 });
 
-app.mount('#app');
+app.mount("#app");
