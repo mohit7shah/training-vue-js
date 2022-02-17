@@ -32,7 +32,7 @@ table td {
   border-collapse: collapse;
 }
 
-.bprogress {
+.progressReport {
   width: 100%;
   height: 15px;
   background: #f0bde9;
@@ -40,12 +40,12 @@ table td {
   position: relative;
 }
 
-.bprogresstext {
+.progresstext {
   position: absolute;
   text-align: center;
 }
 
-.bprogressValue {
+.progressValue {
   height: 100%;
   background-color: #6c63e6;
 }
