@@ -25,7 +25,7 @@ const app = Vue.createApp({
     };
   },
   methods: {
-    Topiccolor() {
+    color() {
       const size = 0;
       this.logs.forEach((val) => {
         if (val.topics.length > size) {
